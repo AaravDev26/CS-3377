@@ -1,0 +1,25 @@
+In Parent: Write to pipe getQuoteMessage sent Message: Get Quote
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Get Quote
+In Child : Write to pipe pipeParentReadChildMessage sent Message:
+“Sometimes you gotta create what you want to be part of.”  ~Geri Weitzman
+
+In Parent: Read from pipe pipeParentReadChildMessage read Message:
+“Sometimes you gotta create what you want to be part of.”  ~Geri Weitzman
+
+
+-----------------------------------
+In Parent: Write to pipe getQuoteMessage sent Message: Get Quote
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Get Quote
+In Child : Write to pipe pipeParentReadChildMessage sent Message:
+“I would rather die of passion than of boredom.” ~Vincent van Gogh
+
+In Parent: Read from pipe pipeParentReadChildMessage read Message:
+“I would rather die of passion than of boredom.” ~Vincent van Gogh
+
+
+-----------------------------------
+In Parent: Write to pipe ParentwriteChildExitMessage sent Message: Exit
+Parent Done
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Exit
+Child Done 
+
