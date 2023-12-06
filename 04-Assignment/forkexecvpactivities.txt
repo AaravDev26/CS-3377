@@ -1,0 +1,42 @@
+./forkexecvp filerandom.txt 100 100
+Parent pid : 35093 to Child Process No : 0
+Send Message : sum
+Parent pid : 35093 to Child Process No : 1
+Send Message : average
+Child pid : 35094 Child Process No : 0 Receieved Message : sum
+Child pid : 35094 Child Process No : 0
+execvp(./calculate, ./calculate, filerandom.txt, NULL)
+Child pid : 35095 Child Process No : 1 Receieved Message : average
+Parent pid : 35093 to Child Process No : 2
+Child pid : 35095 Child Process No : 1
+Send Message : greatest
+execvp(./calculate, ./calculate, filerandom.txt, NULL)
+Child pid : 35096 Child Process No : 2 Receieved Message : greatest
+Parent pid : 35093 to Child Process No : 3
+Child pid : 35096 Child Process No : 2
+Send Message : least
+execvp(./calculate, ./calculate, filerandom.txt, NULL)
+Parent pid: 35093 Start - Wait for all calculate children to finish
+Child pid : 35097 Child Process No : 3 Receieved Message : least
+Child pid : 35097 Child Process No : 3
+execvp(./calculate, ./calculate, filerandom.txt, NULL)
+Parent pid: 35093 Done  - Wait for all calculate children to finish
+Parent pid : 35093 Use execvp() cat to display answer files: 
+Child pid : 35099
+cat answersum.txt
+Parent pid: 35093 Start - Wait for all display answer file children to finish
+Child pid : 35100
+cat answeraverage.txt
+Child pid : 35101
+cat answergreatest.txt
+Child pid : 35102
+cat answerleast.txt
+./calculate sumfilerandom.txt
+Sum      : 4814
+./calculate averagefilerandom.txt
+Average  : 48.14
+./calculate greatestfilerandom.txt
+Greatest : 96
+./calculate leastfilerandom.txt
+Least    : 1
+Parent pid: 35093 Done  - Wait for all display answer file children to finish
