@@ -1,0 +1,176 @@
+{cslinux1:~/assign05}  ./gserver words.txt &
+[1] 19164
+{cslinux1:~/assign05}  ./gclient
+
+
+Game Start
+
+You Have 12 letter guesses to win
+
+
+Client : 1
+No of tries : 0
+(Guess) Enter a letter in the word : -----------
+
+s
+
+Client : 1
+No of tries : 1
+(Guess) Enter a letter in the word : ------s----
+
+a
+
+Client : 1
+No of tries : 2
+(Guess) Enter a letter in the word : ------s----
+
+i
+
+Client : 1
+No of tries : 3
+(Guess) Enter a letter in the word : ---i--s----
+
+o
+
+Client : 1
+No of tries : 4
+(Guess) Enter a letter in the word : ---i--s-oo-
+
+r
+
+Client : 1
+No of tries : 5
+(Guess) Enter a letter in the word : ---i--s-oo-
+
+g
+
+Client : 1
+No of tries : 6
+(Guess) Enter a letter in the word : ---i--s-oo-
+
+b
+
+Client : 1
+No of tries : 7
+(Guess) Enter a letter in the word : ---i--s-oo-
+
+z
+
+Client : 1
+No of tries : 8
+(Guess) Enter a letter in the word : ---i--s-oo-
+
+n
+
+Client : 1
+No of tries : 9
+(Guess) Enter a letter in the word : -n-i--s-oo-
+
+p
+
+Client : 1
+No of tries : 10
+(Guess) Enter a letter in the word : -n-i--s-oo-
+
+j
+
+Client : 1
+No of tries : 11
+(Guess) Enter a letter in the word : -n-i--s-oo-
+
+m
+
+Client : 1
+No of tries : 12
+(Guess) Enter a letter in the word : -n-i--s-oo-
+
+q
+
+
+Out of tries : 12 allowed
+The word is: unwithstood
+
+
+{cslinux1:~/assign05} ./gserver words.txt &
+[1] 21289
+{cslinux1:~/assign05} ./gclient
+
+
+Game Start
+
+You Have 12 letter guesses to win
+
+
+Client : 1
+No of tries : 0
+(Guess) Enter a letter in the word : ---------
+
+u
+
+Client : 1
+No of tries : 1
+(Guess) Enter a letter in the word : ---------
+
+a
+
+Client : 1
+No of tries : 2
+(Guess) Enter a letter in the word : ---a---a-
+
+s
+
+Client : 1
+No of tries : 3
+(Guess) Enter a letter in the word : ---a---a-
+
+t
+
+Client : 1
+No of tries : 4
+(Guess) Enter a letter in the word : --ta--ta-
+
+r
+
+Client : 1
+No of tries : 5
+(Guess) Enter a letter in the word : --ta--ta-
+
+o
+
+Client : 1
+No of tries : 6
+(Guess) Enter a letter in the word : --ta-ota-
+
+e
+
+Client : 1
+No of tries : 7
+(Guess) Enter a letter in the word : -eta-ota-
+
+p
+
+Client : 1
+No of tries : 8
+(Guess) Enter a letter in the word : -eta-ota-
+
+l
+
+Client : 1
+No of tries : 9
+(Guess) Enter a letter in the word : -eta-otal
+
+m
+
+Client : 1
+No of tries : 10
+(Guess) Enter a letter in the word : meta-otal
+
+n
+
+metanotal
+
+
+You Win!
+
+
+{cslinux1:~/assign05} 
